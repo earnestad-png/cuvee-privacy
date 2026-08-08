@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delete your account — Cuvée</title>
+    <meta
+      name="description"
+      content="Request deletion of your Cuvée account and associated data."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #3a2f24;
+        --muted: #5c534a;
+        --bg: #f9f7f2;
+        --paper: #ffffff;
+        --burgundy: #8b0000;
+        --line: #e8e2d6;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(180deg, #f3eee4 0%, var(--bg) 40%, #f7f4ee 100%);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px 24px 72px;
+      }
+      .brand {
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--burgundy);
+        margin: 0 0 12px;
+      }
+      h1 {
+        font-size: clamp(2rem, 4vw, 2.5rem);
+        line-height: 1.15;
+        margin: 0 0 16px;
+        letter-spacing: -0.02em;
+      }
+      .card {
+        margin-top: 24px;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 28px;
+        box-shadow: 0 10px 30px rgba(58, 47, 36, 0.06);
+      }
+      p, li { color: var(--muted); font-size: 1.02rem; }
+      a { color: var(--burgundy); }
+      .btn {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 14px 18px;
+        border-radius: 12px;
+        background: var(--burgundy);
+        color: #fff !important;
+        text-decoration: none;
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        font-weight: 700;
+      }
+      .meta {
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 28px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="brand">Cuvée</p>
+      <h1>Delete your account</h1>
+      <div class="card">
+        <p>
+          You can request deletion of your Cuvée account and associated data
+          (learning progress, wishlist, tasting journal entries, and optional photos).
+        </p>
+        <p><strong>How to request deletion</strong></p>
+        <ol>
+          <li>Email us from the same address you use to sign in to Cuvée.</li>
+          <li>Use the subject line: <em>Account deletion request</em>.</li>
+          <li>Include your account email in the message body.</li>
+        </ol>
+        <p>
+          <a class="btn" href="mailto:support.cuvee@gmail.com?subject=Account%20deletion%20request">
+            Email support.cuvee@gmail.com
+          </a>
+        </p>
+        <p>
+          We will delete or anonymize your account data within a reasonable period,
+          unless we must retain something for legal reasons. You will receive a
+          confirmation reply when the request is completed.
+        </p>
+        <p>
+          Looking for our privacy policy?
+          <a href="../privacy/">Read the Privacy Policy</a>.
+        </p>
+      </div>
+      <p class="meta">Cuvée · Account deletion · com.cuvee.wineapp</p>
+    </main>
+  </body>
+</html>
